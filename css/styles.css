@@ -341,12 +341,18 @@ ul{
 
 
 /*Блок с набором карточек*/
+.preview .padding{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
 .preview .title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     text-align: left;
-    margin-left: 24px;
 }
 
 .preview .part{
@@ -355,8 +361,6 @@ ul{
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     text-align: left;
-    margin-left: 24px;
-
 }
 .preview .title-list{
     display: block;
@@ -371,14 +375,11 @@ ul{
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 .preview .title-list .title{
     margin-bottom: 4px;
 }
-.preview .title-list .part{
-    margin-bottom: 20px;
-}
+
 .preview .title-list:nth-child(3n){
     margin-right: 0;
 }
